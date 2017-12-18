@@ -1,0 +1,13 @@
+<% provide :title, t(".title") %>
+<h1><%= t "common.title" %></h1>
+<p>
+  <%= t(".content_html",
+    rails_tutorial:
+      link_to(t("common.rails_tutorial"), t("common.rails_tutorial_link")),
+    rails_book:
+      link_to(t("common.rails_book"), t("common.rails_book_link")),
+    rails_screencast:
+      link_to(t("common.rails_screencast"), t("common.rails_screencast_link")),
+    ruby_on_rails:
+      link_to(t("common.ruby_on_rails"), t("common.ruby_on_rails_link"))) %>
+</p>
