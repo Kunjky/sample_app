@@ -1,0 +1,7 @@
+<% provide :title, t(".title") %>
+<h1><%= t "common.title" %></h1>
+<p>
+  <%= t(".content_html",
+    rails_contact:
+      link_to(t("common.rails_contact"), t("common.rails_contact_link"))) %>
+</p>
