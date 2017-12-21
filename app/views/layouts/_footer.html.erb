@@ -1,0 +1,16 @@
+<footer class="footer">
+  <small>
+    <%= t(".content_html",
+      rails_tutorial:
+        link_to(t("common.rails_tutorial"), t("common.rails_tutorial_link")),
+      author:
+        link_to(t("common.author"), t("common.author_link"))) %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("static_pages.about.title"), about_path %></li>
+      <li><%= link_to t("static_pages.contact.title"), contact_path %></li>
+      <li><%= link_to t("common.news"), t("common.news_link") %></li>
+    </ul>
+  </nav>
+</footer>
