@@ -30,8 +30,14 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+
   common:
     title: "Sample App"
+    author: "Michael Hartl"
+    author_link: "http://www.michaelhartl.com/"
+    login: "Login"
+    news: "News"
+    news_link: "http://news.railstutorial.org/"
     base_title: "Ruby on Rails Tutorial Sample App"
     ruby_on_rails: "Ruby on Rails"
     ruby_on_rails_link: "http://rubyonrails.org/"
@@ -47,21 +53,32 @@ en:
     rails_screencast_link: "http://screencasts.railstutorial.org/"
     rails_contact: "contact page"
     rails_contact_link: "http://www.railstutorial.org/contact"
+  layouts:
+    footer:
+      content_html: >
+        The %{rails_tutorial}
+        by %{author}
+  users:
+    new:
+      sign_up: "Sign up"
+      sign_up_now: "Sign up now!"
+      description: "This will be a signup page for new users."
   static_pages:
     home:
       title: "Home"
-      content_html: >-
+      content_html: >
         This is the home page for the
         %{rails_tutorial}
         sample application. 
+        rails_logo_alt: "Rails logo"
     help:
       title: "Help"
-      content_html: >-
+      content_html: >
         Get help on the Ruby on Rails Tutorial at the %{rails_help}.
         To get help on this sample app, see the %{rails_tutorial} book.
     about:
       title: "About"
-      content_html: >-
+      content_html: >
         The %{rails_tutorial} is a
         %{rails_book} and
         %{rails_screencast}
@@ -70,7 +87,7 @@ en:
         This is the sample application for the tutorial.
     contact:
       title: "Contact"
-      content_html: >-
+      content_html: >
         Contact the Ruby on Rails Tutorial about the sample app at the
         %{rails_contact}
       
