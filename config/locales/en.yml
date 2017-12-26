@@ -30,7 +30,11 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-
+  flash: 
+    welcome: "Welcome to the Sample App!"
+    user_not_found: "User id %{id} not found!"
+  error:
+    message: The form contains %{count} 
   common:
     title: "Sample App"
     author: "Michael Hartl"
