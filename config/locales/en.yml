@@ -77,6 +77,7 @@ en:
       signup_now: "Sign up now!"
       description: "This will be a signup page for new users."
       create_account: "Create my account"
+      remember_me: "Remember me on this computer"
   static_pages:
     home:
       title: "Home"
