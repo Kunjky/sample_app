@@ -30,12 +30,15 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  flash: 
+  flash:
     welcome: "Welcome to the Sample App!"
     user_not_found: "User id %{id} not found!"
     login_fail: "Invalid email/password combination"
+    profile_updated: "Profile updated"
+    user_deleted: "User deleted"
+    login_required: "Please log in."
   error:
-    message: The form contains %{count} 
+    message: The form contains %{count}
   common:
     title: "Sample App"
     author: "Michael Hartl"
@@ -70,21 +73,30 @@ en:
   sessions:
     new:
       login: "Log in"
-      description_html: "New user? %{sign_up}" 
+      description_html: "New user? %{sign_up}"
   users:
+    index:
+      all_user: "All users"
     new:
       signup: "Sign up"
       signup_now: "Sign up now!"
       description: "This will be a signup page for new users."
       create_account: "Create my account"
       remember_me: "Remember me on this computer"
+    edit:
+      title: "Update your profile"
+      edit_user: "Edit user"
+      save_changes: "Save changes"
+      change: "Change"
+    user:
+      confirm: "You sure?"
   static_pages:
     home:
       title: "Home"
       content_html: >
         This is the home page for the
         %{rails_tutorial}
-        sample application. 
+        sample application.
       rails_logo_alt: "Rails logo"
     help:
       title: "Help"
@@ -105,4 +117,4 @@ en:
       content_html: >
         Contact the Ruby on Rails Tutorial about the sample app at the
         %{rails_contact}
-      
+
