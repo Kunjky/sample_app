@@ -37,6 +37,11 @@ en:
     profile_updated: "Profile updated"
     user_deleted: "User deleted"
     login_required: "Please log in."
+    account_activated: "Account activated!"
+    invalid_activation: "Invalid activation link"
+    check_mail: "Please check your email to activate your account."
+    message_account_not_activated:
+      "Account not activated.\nCheck your email for the activation link."
   error:
     message: The form contains %{count}
   common:
@@ -70,6 +75,11 @@ en:
       content_html: >
         The %{rails_tutorial}
         by %{author}
+  user_mailer:
+    account_activation:
+      title: "Sample App"
+      greeting: "Hi %{name}"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
   sessions:
     new:
       login: "Log in"
